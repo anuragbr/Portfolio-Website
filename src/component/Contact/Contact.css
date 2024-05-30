@@ -1,0 +1,97 @@
+
+.contact-me input{
+    background-color: rgb(75, 78, 80);
+    padding: 13px 62px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+    
+}
+
+.contact{
+   
+    padding-top: 200px;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards ;
+    padding-bottom: 50px;
+    background-color: rgb(37, 37, 52);
+    padding-left: 200px;
+    
+}
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.input-data-top{
+    display: flex;
+    margin-bottom: 10px;
+    gap: 10px;
+    margin-left: 410px;
+    margin-top: 50x;
+}
+.input-data-bottom{
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+    margin-left: 410px;
+}
+.msg textarea{
+    background-color: rgb(75, 78, 80);
+    border: none;
+    outline: none;
+    padding: 50px 238px;
+    margin-left: 410px;
+    margin-top: 10px;
+    color: white;
+    font-size: 17px;
+
+}
+.contact-me h1{
+    font-size: 40px;
+    bottom: -2100px;
+    left: 850px;
+    position: absolute;
+}
+.contact-me h1 span{
+    color: rgba(0,204,255);
+}
+.contact-me .send-msg{
+    padding: 10px 30px;
+    color: blue;
+    box-shadow: 0 0 1rem rgba(47, 213, 255, 0.685);
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    margin-left: 660px;
+    margin-top: 30px;
+    
+}
+.contact-me .msg-sent{
+    padding: 10px 30px;
+    color: blue;
+    box-shadow: 0 0 1rem rgba(47, 213, 255, 0.685);
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    margin-left: 550px;
+    margin-top: 30px;
+}
+.contact-me button:hover{
+    box-shadow: 0 0 0;
+    transition: 0.5s ease;
+}

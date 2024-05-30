@@ -1,0 +1,219 @@
+.service-content{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 100px;
+    z-index: 50;
+    background-color: white;
+    padding-top: 120px;
+    padding-bottom: 100px;
+    opacity: 0;
+    overflow: hidden;
+    animation: fadeIn 1s ease-in-out forwards ;
+    position:relative;
+    
+}
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.service-content .service-title {
+   
+    font-size: 35px;
+    bottom: 550px;
+    left: 830px;
+    position: absolute;
+}
+.service-content h3 span{
+    color: rgb(0, 157, 255);
+}
+.service1{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.service1 .title{
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+    font-size: 28px;
+    color: rgb(0, 123, 255);
+}
+.service2 .title{
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+    font-size: 28px;
+    color: rgb(0, 123, 255);
+}
+.service3 .title{
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+    font-size: 28px;
+    color: rgb(0, 123, 255);
+}
+.service3 ul{
+    text-align: center;
+    align-items: center;
+    margin-top: 60px;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 30px;
+}
+
+.service2 ul{
+    text-align: center;
+    align-items: center;
+    margin-top: 60px;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 30px;
+}
+.service1 ul{
+    text-align: center;
+    align-items: center;
+    margin-top: 60px;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 30px;
+}
+.service1 ul li{
+    list-style: none;
+}
+.service2 ul li{
+    list-style: none;
+}
+.service3 ul li{
+    list-style: none;
+}
+.service2{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.service3{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width:1500px)
+{
+    .service-content .service-title {
+   
+        font-size: 30px;
+        bottom: 500px;
+        left: 100px;
+        position: absolute;
+    }
+}
+@media (max-width:1900px)
+{
+    .service-content .service-title {
+   
+        font-size: 30px;
+        bottom: 500px;
+        left: 800px;
+        position: absolute;
+    }
+}
+@media (max-width:1780px)
+{
+    .service-content .service-title {
+   
+        font-size: 30px;
+        bottom: 500px;
+        left: 700px;
+        position: absolute;
+    }
+}
+@media (max-width:1600px)
+{
+    .service-content .service-title {
+   
+        font-size: 30px;
+        bottom: 500px;
+        left: 650px;
+        position: absolute;
+    }
+}
+@media (max-width:1300px)
+{
+    .service-content{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        z-index: 50;
+        background-color: white;
+        padding-top: 120px;
+        padding-bottom: 100px;
+        opacity: 0;
+        overflow: hidden;
+        animation: fadeIn 1s ease-in-out forwards ;
+        position:relative;
+        
+    }
+}
+@media (max-width:1000px)
+{
+    .service-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        z-index: 50;
+        background-color: white;
+        padding-top: 120px;
+        padding-bottom: 100px;
+        opacity: 0;
+        overflow: hidden;
+        animation: fadeIn 1s ease-in-out forwards ;
+        position:relative;
+        
+    }
+    .service1{
+        height: 500px;
+        width: 300px;
+        background-color: white;
+        padding: 10px 20px;
+        border-radius: 15px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    }
+    .service2{
+        height: 500px;
+        width: 300px;
+        background-color: white;
+        padding: 10px 20px;
+        border-radius: 15px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    }
+    .service3{
+        height: 500px;
+        width: 300px;
+        background-color: white;
+        padding: 10px 20px;
+        border-radius: 15px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    }
+}

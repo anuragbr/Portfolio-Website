@@ -1,0 +1,174 @@
+  .about{
+    
+    background: white;
+    padding-top: 100px;
+    height: 500px;
+    color: black;
+    padding-bottom: 300px;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards ;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    width: 100%;
+    transform: scale(1, 1);
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.about-title{
+   margin-left: 300px;
+   margin-right: 540px;
+   font-size: 35px;
+   font-weight: 600;
+   border-bottom: 4px solid rgb(41, 98, 255);
+   width: 100px;
+   margin-bottom: 50px; 
+}
+ .about-content{
+    display: flex;
+    gap: 100px;
+    margin-top: 100px;
+    padding-top: 50px;
+  
+    color: rgb(88, 88, 88);
+    color: black;
+}
+.about-img img{
+    width: 350px;
+    height: 350px;
+    margin-left: 50px;
+    margin-top: 80px;
+    animation: floatImage 3s ease-in-out infinite;
+}
+@keyframes floatImage{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-3rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.text-data{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    
+}
+.text-data ul li{
+    list-style: none;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.text-data .text-data-right{
+    margin-right: 80px;
+}
+.text-para p{
+    line-height: 25px;
+    margin-right: 60px;
+    font-size: 17px;
+    letter-spacing: 0.4px;
+}
+.text-title p {
+    font-size: 18px;
+    font-style: italic;
+}
+.text-title{
+    line-height: 8px;
+}
+
+.text-description .text-title h2{
+    color: rgb(0, 98, 255);
+}
+
+@media (max-width:1970px)
+{
+    .about-content{
+       
+        margin-top: 100px;
+    padding-top: 50px;
+   
+    color: rgb(88, 88, 88);
+    color: black;
+    }
+    .about-img img{
+        width: 300px;
+        height: 300px;
+        margin-left: 50px;
+        margin-top: 100px;
+        animation: floatImage 3s ease-in-out infinite;
+    }
+    .text-para p{
+        line-height: 25px;
+        margin-right: 60px;
+        font-size: 17px;
+        letter-spacing: 0.4px;
+        word-break: break-word;
+    }
+  
+}
+
+
+
+@media (max-width: 1379px) {
+    .about-content {
+      flex-direction: column; 
+      gap: 30px;
+      align-items: center;
+    }
+  
+    .about-img img {
+     position: absolute;
+     left: 330px;
+     top: 10px;
+     margin-bottom: 50px;
+    }
+  
+    .text-data{
+        display: flex;
+    }
+  
+    .text-data .text-data-right {
+        margin-right: auto;
+    }
+    .text-data .text-data-left {
+        margin-left: auto;
+    }
+  
+    .text-description{
+        margin: 120px 0px;
+        align-items: center;
+        text-align: center;
+    }
+    .about-title{
+        display: none;
+     }
+    
+  }
+  @media(max-width:1200px)
+  {
+   
+    .about-content{
+        
+            flex-direction: column; 
+            gap: 30px;
+            margin-left: 100px;
+            margin-right: 100px;
+            align-items: center;
+            text-align: center;
+    }
+  }
